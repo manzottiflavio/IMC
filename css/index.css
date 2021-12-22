@@ -1,0 +1,110 @@
+body{
+    background:linear-gradient(#2E2C2F,#475B63);
+}
+
+
+.meio{
+    text-align: center;
+    width: 150px;
+    height: 600px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h1{
+    color:#93f071;
+    font-size: 60px;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.container{
+margin-left: 240px;
+margin-top: 100px;
+
+}
+
+
+
+input{
+    text-decoration: white;
+    background: #333;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: black;
+    align-items: center;
+    border:none;
+    color: #93f071;
+    text-shadow: 0px 0px 10px #93f071;
+   
+    
+}
+
+input:hover{
+    width: 200px;
+    height: 60px;
+    font-size: 35px; 
+    color: #93f071;
+    text-shadow: 0px 0px 5px #75f048;
+    background-color: rgb(90, 89, 89);
+}
+.meio{
+font-size: 25px;
+ }
+
+.centro{
+    width: 400px;
+    height: 490px;
+    opacity: 0.6;
+   background:#729B79;
+    border-radius: 10px;
+    padding-top: 5px;
+
+    color:white;
+}
+
+
+
+.noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+  }
+  
+  button {
+      width: 170px;
+      height: 60px;
+      cursor: pointer;
+      background: #333;
+      margin: 10px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+      color: rgb(112, 111, 111);
+      font-size: 16px;
+  }
+  
+  button:hover {
+      box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+      font-size: 25px;
+      transition: 500ms;
+  }
+  
+  button:focus {
+      outline: none;
+  }
+  
+  .red:hover {
+      color: #f07171;
+      text-shadow: 0px 0px 10px #f07171;
+  }
+  
+  .green:hover {
+          color: #93f071;
+      text-shadow: 0px 0px 10px #93f071;
+  }
